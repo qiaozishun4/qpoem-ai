@@ -28,7 +28,7 @@ document.getElementById('submit-btn').addEventListener('click', async function (
 function getAnswerFromAI(question) {
     // 使用您提供的本地 Ollama 地址和模型名
     const ipAndPort = '46.62.195.29:11434';
-    const modelName = 'llama3.2-vision:latest';
+    const modelName = 'llama3.2:latest';
     const url = `http://${ipAndPort}/api/generate`;
 
     const payload = {
